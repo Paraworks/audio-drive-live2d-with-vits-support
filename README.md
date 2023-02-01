@@ -1,11 +1,11 @@
 # audio-drive-live2d-with-vits-support
 # 语音驱动的vtb尝试
 # 环境要求
-# PaddleGAN Opencv dlib OpenGL vits所需的环境
+PaddleGAN Opencv dlib OpenGL vits所需的环境
 
 参考 https://github.com/PaddlePaddle/PaddleGAN
 
-https://github.com/RimoChan/Vtuber_Tutorial
+     https://github.com/RimoChan/Vtuber_Tutorial
 
 具体环境安装比较麻烦，需要你安装vs2022和cmake，缺少的包需额外安装
 
@@ -73,10 +73,9 @@ args = parser.parse_args()
 #把wav2lip.py与 现实.py丢进vits项目中
 cd vits_with_live2d
 python wav2lip.py
-
 ```
 # 启动绿皮chatbot或tts
-'''
+```
 python launcher.py
 #python tts,py
-'''
+```
