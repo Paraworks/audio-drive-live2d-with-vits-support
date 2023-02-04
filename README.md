@@ -1,6 +1,6 @@
 # audio-drive-live2d-with-vits-support
-# 本地化AI vtb尝试
-# 环境要求
+# 本地化语音驱动皮套尝试
+# 环境要求 texture-talkingface&&opencv
 Windows 安装Vs2022和Cmake
 PaddleGAN Opencv dlib OpenGL vits所需的环境
 ```
@@ -9,7 +9,6 @@ PaddleGAN Opencv dlib OpenGL vits所需的环境
 #Paddlegun推荐仓库安装 https://github.com/PaddlePaddle/PaddleGAN
 
 ```
-具体环境安装比较麻烦，需要你安装vs2022和cmake，缺少的包需额外安装
 
 #文件配置
 ```
