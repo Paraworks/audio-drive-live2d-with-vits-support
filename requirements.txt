@@ -22,7 +22,7 @@ num_thai==0.0.5
 opencc==1.1.1
 ipython
 dlib
-paddlepaddle-gpu（https://www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html）
+paddlepaddle-gpu
 pyvirtualcam==0.9.1
 pyanime4k==2.5.2
 mediapipe==0.8.9.1
