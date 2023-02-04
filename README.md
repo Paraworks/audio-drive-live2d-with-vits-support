@@ -2,7 +2,9 @@
 # 本地化AI vtb尝试
 # 环境要求
 PaddleGAN Opencv dlib OpenGL vits所需的环境
-
+```
+paddlepaddke/www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
+```
 参考 https://github.com/PaddlePaddle/PaddleGAN  https://github.com/RimoChan/Vtuber_Tutorial
 
 具体环境安装比较麻烦，需要你安装vs2022和cmake，缺少的包需额外安装
