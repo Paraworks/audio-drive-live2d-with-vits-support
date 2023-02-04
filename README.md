@@ -1,12 +1,14 @@
 # audio-drive-live2d-with-vits-support
 # 本地化AI vtb尝试
 # 环境要求
+Windows 安装Vs2022和Cmake
 PaddleGAN Opencv dlib OpenGL vits所需的环境
 ```
-paddlepaddke/www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
-```
-参考 https://github.com/PaddlePaddle/PaddleGAN  https://github.com/RimoChan/Vtuber_Tutorial
+#paddlepaddlewhl文件夹:  www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
+#安装dlib conda install -c https://conda.anaconda.org/conda-forge dlib
+#Paddlegun推荐仓库安装 https://github.com/PaddlePaddle/PaddleGAN
 
+```
 具体环境安装比较麻烦，需要你安装vs2022和cmake，缺少的包需额外安装
 
 #文件配置
