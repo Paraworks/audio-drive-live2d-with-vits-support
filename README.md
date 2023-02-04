@@ -7,6 +7,7 @@ PaddleGAN Opencv dlib OpenGL vits所需的环境
 #paddlepaddlewhl文件夹:  www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
 #安装dlib conda install -c https://conda.anaconda.org/conda-forge dlib
 #Paddlegun推荐仓库安装 https://github.com/PaddlePaddle/PaddleGAN
+#参考requirements.txt
 
 ```
 
