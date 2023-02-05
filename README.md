@@ -11,7 +11,7 @@ PaddleGAN Opencv dlib OpenGL vits所需的环境
 
 ```
 
-#文件配置
+#基础文件配置
 ```
 #参考ezv.py 如果采用EasyVtuber则使用该文件
 parser.add_argument('--audio',
@@ -95,6 +95,10 @@ parser.add_argument('--y2',
 args = parser.parse_args()
 ```
 # Easy Vtuber 启动
+先根据大佬的说明文档搭建环境，不需要安装摄像头相关应用
+https://github.com/yuyuyzl/EasyVtuber
+可以直接用该仓库下属的EasyVtuber文件夹
+或者确保你自己的EasyVtuber文件夹与res及vits文件夹位于同一目录下
 ```
 cd EasyVtuber
 python main.py --character png文件的名字
