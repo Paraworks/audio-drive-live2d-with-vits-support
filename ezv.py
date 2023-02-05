@@ -43,7 +43,7 @@ parser.add_argument('--config',
 parser.add_argument('--model',
                     type=str,
                     help='Checkpoint file of vits model.',
-                    default='../res/G_205000.pth')
+                    default='../res/model.pth')
 parser.add_argument('--texture',
                     type=str,
                     help='Texture file contain the response of chatbot.',
