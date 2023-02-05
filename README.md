@@ -1,6 +1,6 @@
 # audio-drive-live2d-with-vits-support
 # 本地化语音驱动皮套尝试
-# 环境要求 texture-talkingface&&opencv
+# 环境要求 opengl&&opencv
 Windows 安装Vs2022和Cmake
 PaddleGAN Opencv dlib OpenGL vits所需的环境
 ```
