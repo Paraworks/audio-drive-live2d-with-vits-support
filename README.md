@@ -102,17 +102,17 @@ https://github.com/yuyuyzl/EasyVtuber
 ```
 cd EasyVtuber
 python main.py --character png文件的名字
-#启动一个新的终端，把ezv.py丢进vits目录
+#启动一个新的终端，把ezv.py丢进vits目录，启动语音端。目前只自带tts，未绑定chatbot
 cd vits
 python ezv.py
 ```
-# live2d启动
+# 手工版live2d启动
 ```
 #把wav2lip.py与 现实.py丢进vits项目中
 cd vits_with_vtb
 python wav2lip.py
 ```
-# 启动绿皮chatbot或tts
+# 启动绿皮chatbot或tts，你也可以认为这是机械神教的铁人
 ```
 python launcher.py
 #python tts,py
