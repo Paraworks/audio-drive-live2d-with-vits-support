@@ -68,7 +68,14 @@ parser.add_argument('--y2',
                     help='必须要用到的两个文件之一',
                     default = '../res/信息.yaml')
 args = parser.parse_args()
-
+```
+# Easy Vtuber 启动
+```
+cd EasyVtuber
+python main.py --character png文件的名字
+#启动一个新的终端，把ezv.py丢进vits目录
+cd vits
+python ezv.py
 ```
 # live2d启动
 ```
