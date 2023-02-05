@@ -97,7 +97,7 @@ args = parser.parse_args()
 # Easy Vtuber 启动
 先根据大佬的说明文档搭建环境，不需要安装摄像头相关应用。
 https://github.com/yuyuyzl/EasyVtuber
-可以直接用该仓库下属的EasyVtuber文件夹。
+可以直接用该仓库下属的EasyVtuber文件夹，我只对main.py做了一点的修改来支持视频读取。
 或者确保你自己的EasyVtuber文件夹与res及vits文件夹位于同一目录下，本仓库内其名字是vits_with_live2d
 ```
 cd EasyVtuber
