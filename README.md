@@ -4,7 +4,7 @@
 Windows 安装Vs2022和Cmake
 PaddleGAN Opencv dlib OpenGL vits所需的环境
 ```
-#paddlepaddlewhl文件夹:  www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
+#paddlepaddle whl文件夹:  www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
 #安装dlib conda install -c https://conda.anaconda.org/conda-forge dlib
 #Paddlegun推荐仓库安装 https://github.com/PaddlePaddle/PaddleGAN
 #参考requirements.txt
@@ -13,10 +13,38 @@ PaddleGAN Opencv dlib OpenGL vits所需的环境
 
 #文件配置
 ```
-#参考现实.py
-parser = argparse.ArgumentParser(
-    description=
-    'Inference code to lip-sync videos in the wild using Wav2Lip models')
+#参考ezv.py 如果采用EasyVtuber则使用该文件
+parser.add_argument('--audio',
+                    type=str,
+                    help='中途生成的语音存储路径',
+                    default = '../res/audio.wav')
+parser.add_argument('--face',
+                    type=str,
+                    help='中之人的照片，用于talking face',
+                    default = '../res/stdface.jpg')
+parser.add_argument('--outfile',
+                    type=str,
+                    help='视频路径，动作捕捉的替代品',
+                    default='../res/result_voice.mp4')
+parser.add_argument('--config',
+                    type=str,
+                    help='Config file of vits model.',
+                    default='../res/config.json')
+parser.add_argument('--model',
+                    type=str,
+                    help='Checkpoint file of vits model.',
+                    default='../res/model.pth')
+parser.add_argument('--texture',
+                    type=str,
+                    help='Texture file contain the response of chatbot.',
+                    default='../res/status.txt')
+parser.add_argument('--waitVideo',
+                    type=str,
+                    help='Texture file contain the response of chatbot.',
+                    default='../res/Masahiro.mp4')
+                    
+#参考现实.py 如使用手工皮套则用这个文件和 wavlip.py
+
 parser.add_argument('--audio',
                     type=str,
                     help='中途生成的语音存储路径',
@@ -52,9 +80,6 @@ parser.add_argument('--waitVideo',
 
 #参考wavlip.py
 
-parser = argparse.ArgumentParser(
-    description=
-    '一些必须的文件')
 parser.add_argument('--psd',
                     type=str,
                     help='拆分好的psd文件',
