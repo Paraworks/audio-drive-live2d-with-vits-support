@@ -40,7 +40,7 @@ parser.add_argument('--texture',
                     default='../res/status.txt')
 parser.add_argument('--waitVideo',
                     type=str,
-                    help='Texture file contain the response of chatbot.',
+                    help='待机视频.',
                     default='../res/Masahiro.mp4')
                     
 #参考现实.py 如使用手工皮套则用这个文件和 wavlip.py
@@ -75,7 +75,7 @@ parser.add_argument('--texture',
                     default='../res/conversation.txt')
 parser.add_argument('--waitVideo',
                     type=str,
-                    help='Texture file contain the response of chatbot.',
+                    help='待机视频.',
                     default='../res/Masahiro.mp4')
 
 #参考wavlip.py
