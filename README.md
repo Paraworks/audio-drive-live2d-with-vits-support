@@ -109,6 +109,7 @@ python ezv.py
 # 手工版live2d启动
 ```
 #把wav2lip.py与 现实.py丢进vits项目中
+#创建utrils_live2d 文件夹，放入本项目中的同名文件夹下的内容
 cd vits_with_vtb
 python wav2lip.py
 ```
