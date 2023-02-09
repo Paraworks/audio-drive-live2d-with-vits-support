@@ -44,7 +44,7 @@ parser.add_argument('--waitVideo',
                     default='../res/Masahiro.mp4')
                     
 #参考现实.py 如使用手工皮套则用这个文件和 wavlip.py
-
+# 需要从扯个仓库里面拿 https://github.com/RimoChan/Vtuber_Tutorial
 parser.add_argument('--audio',
                     type=str,
                     help='中途生成的语音存储路径',
