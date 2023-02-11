@@ -8,12 +8,11 @@ PaddleGAN Opencv dlib OpenGL vits所需的环境
 #安装dlib conda install -c https://conda.anaconda.org/conda-forge dlib
 #Paddlegun推荐仓库安装 https://github.com/PaddlePaddle/PaddleGAN
 #参考requirements.txt
-
 ```
 
 #基础文件配置
 ```
-#参考vits_onnx/app.py Easyvtuber+vits的onnx导出版，详细看我上一个仓库
+#参考vits_onnx/app.py Easyvtuber+vits的onnx导出模型，详细看我上一个仓库
 def get_args():
     parser = argparse.ArgumentParser(description='inference')
     parser.add_argument('--audio',
@@ -54,7 +53,8 @@ def get_args():
                     default = "your_key")
     args = parser.parse_args()
     return args
-#参考ezv.py 如果采用EasyVtuber则使用该文件
+
+#参考ezv.py 如果采用EasyVtuber+vits则使用该文件
 parser.add_argument('--audio',
                     type=str,
                     help='中途生成的语音存储路径',
