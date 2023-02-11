@@ -27,3 +27,4 @@ pyvirtualcam==0.9.1
 pyanime4k==2.5.2
 mediapipe==0.8.9.1
 pynput==1.7.6
+onnxruntime-gpu
