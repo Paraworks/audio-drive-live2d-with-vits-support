@@ -102,6 +102,9 @@ https://github.com/yuyuyzl/EasyVtuber
 ```
 cd EasyVtuber
 python main.py --character png文件的名字
+#vits_onnx 版本
+cd vits_onnx
+python app.py
 #启动一个新的终端，把ezv.py丢进vits目录，启动语音端。目前只自带tts，未绑定chatbot
 cd vits
 python ezv.py
