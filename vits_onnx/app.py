@@ -55,7 +55,7 @@ def get_args():
     parser.add_argument('--key',
                     type=str,
                     help='openai的key',
-                    default = "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")
+                    default = "your_key")
     args = parser.parse_args()
     return args
 
