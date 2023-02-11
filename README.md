@@ -136,10 +136,10 @@ parser.add_argument('--y2',
 args = parser.parse_args()
 ```
 # Easy Vtuber 启动
-先根据大佬的说明文档搭建环境，不需要安装摄像头相关应用。
-https://github.com/yuyuyzl/EasyVtuber
-可以直接用该仓库下属的EasyVtuber文件夹，我只对main.py做了一点的修改来支持视频读取。
-或者确保你自己的EasyVtuber文件夹与res及vits文件夹位于同一目录下，本仓库内其名字是vits_with_live2d
+[先根据大佬的说明文档搭建环境，不需要安装摄像头相关应用。](
+https://github.com/yuyuyzl/EasyVtuber)然后使用本仓库的[main.py](https://github.com/Paraworks/audio-drive-live2d-with-vits-support/blob/main/EasyVtuber/main.py)替换原本的main.py
+,我只对其做了一点的修改来支持视频读取。在不修改main.py,wav2lip.py,app.py等文件夹parser的情况下，
+确保你自己的EasyVtuber文件夹与res及vits或者vits_onnx文件夹位于同一目录下，格式与本仓库相同。
 ```
 cd EasyVtuber
 python main.py --character png文件的名字
