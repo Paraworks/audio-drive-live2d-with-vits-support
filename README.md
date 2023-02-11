@@ -13,6 +13,47 @@ PaddleGAN Opencv dlib OpenGL vits所需的环境
 
 #基础文件配置
 ```
+#参考vits_onnx/app.py Easyvtuber+vits的onnx导出版，详细看我上一个仓库
+def get_args():
+    parser = argparse.ArgumentParser(description='inference')
+    parser.add_argument('--audio',
+                    type=str,
+                    help='中途生成的语音存储路径',
+                    default = '../res/audio.wav')
+    parser.add_argument('--face',
+                    type=str,
+                    help='中之人的照片，用于talking face',
+                    default = '../res/stdface.jpg')
+    parser.add_argument('--outfile',
+                    type=str,
+                    help='视频路径，动作捕捉的替代品',
+                    default='../res/result_voice.mp4')
+    parser.add_argument('--texture',
+                    type=str,
+                    help='Texture file contain the response of chatbot.',
+                    default='../res/status.txt')
+    parser.add_argument('--waitVideo',
+                    type=str,
+                    help='Texture file contain the response of chatbot.',
+                    default='../res/Masahiro.mp4')
+    parser.add_argument('--onnx_model', 
+                    type=str,
+                    help = 'onnx checkpoint',
+                    default = './moe/model.onnx')
+    parser.add_argument('--cfg', 
+                    type=str,
+                    help = 'onnx config',
+                    default="./moe/config.json")
+    parser.add_argument('--outdir', 
+                    type=str,
+                    help='ouput directory',
+                    default="./moe")
+    parser.add_argument('--key',
+                    type=str,
+                    help='openai的key',
+                    default = "your_key")
+    args = parser.parse_args()
+    return args
 #参考ezv.py 如果采用EasyVtuber则使用该文件
 parser.add_argument('--audio',
                     type=str,
